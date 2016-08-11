@@ -19,12 +19,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func Tappedbutton(_ sender: AnyObject) {
-    print(number1.text!)
-    print(number2.text!)
-
-        }
+  label.text = String (Double(number1.text!)! + Double(number2.text!)!)
     }
    
-   
-    
-  
+}

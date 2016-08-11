@@ -23,8 +23,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bo5-OJ-r5B">
-                                <frame key="frameInset" minX="168" minY="215" width="64" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bo5-OJ-r5B">
                                 <state key="normal" title="Press me"/>
                                 <connections>
                                     <action selector="Tappedbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wfM-2J-lcK"/>
